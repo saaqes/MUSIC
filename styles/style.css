@@ -11,7 +11,7 @@ body {
 }
 
 .hero {
-background: url(assets/images/angel.jpg)no-repeat center/cover;
+background: url(../assets/images/angel.jpg)no-repeat center/cover;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -20,9 +20,11 @@ background: url(assets/images/angel.jpg)no-repeat center/cover;
 }
 
 .hero h1 {
-    font-size: 6rem;
+    font-size: 10rem;
     font-weight: lighter;
+    
 }
+
 
 .section {
     display: flex;
@@ -44,7 +46,7 @@ background: url(assets/images/angel.jpg)no-repeat center/cover;
 }
 
 .section .text span {
-    color: #f1214e;
+    color: linear-gradient(to right, #e92939, #d31e6a);
     font-weight: bold;
 }
 
@@ -70,7 +72,7 @@ background: url(assets/images/angel.jpg)no-repeat center/cover;
     align-items: center;
     padding: 60px 10%;
     flex-wrap: wrap;
-    background: url(assets/images/raptis.png)no-repeat center/cover;
+    background: url(../assets/images/raptis.png)no-repeat center/cover;
     color: white;
 }
 
@@ -106,7 +108,7 @@ background: url(assets/images/angel.jpg)no-repeat center/cover;
 }
 
 .section-3 button {
-    background: #f1214e;
+    background: linear-gradient(to right, #e92939, #d31e6a);
     border: none;
     color: white;
     padding: 12px 24px;
@@ -114,13 +116,9 @@ background: url(assets/images/angel.jpg)no-repeat center/cover;
     border-radius: 20px;
 }
 
-.section-3 button:hover {
-    background: #f1214e;
-}
-
 
 button {
-    background: #f1214e;
+    background: linear-gradient(to right, #e92939, #d31e6a);
     border: none;
     color: white;
     padding: 12px 24px;
@@ -129,9 +127,6 @@ button {
     transition: background 0.3s;
 }
 
-button:hover {
-    background: #f1214e;
-}
 
 
 .footer {
